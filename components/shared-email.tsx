@@ -10,7 +10,7 @@ const SharedEmail = ({ sharedEmail }: Props) => {
   const { desc, features, image, title } = sharedEmail;
 
   return (
-    <section id="shared-inbox" className="gradient-color py-14 lg:py-28">
+    <section className="gradient-color py-14 lg:py-28">
       <div className="container">
         <div className="flex flex-wrap max-w-[1200px] mx-auto space-y-10 lg:space-y-0">
           <div className="lg:basis-[50%] lg:max-w-[50%] basis-full">

@@ -9,7 +9,7 @@ const Paltform = ({ plartform }: Props) => {
   const { title, desc, image, button } = plartform;
 
   return (
-    <section id="palartform" className="pb-20">
+    <section className="pb-20">
       <div className="container">
         <div className="bg-[#F6F6F6] p-8 md:px-[80px] md:py-[50px] flex flex-wrap items-center space-y-10 lg:space-y-0">
           <div className="lg:basis-[60%] lg:max-w-[60%] w-full">

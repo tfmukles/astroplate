@@ -23,7 +23,7 @@ const LargeMenu = () => {
                 </svg>
               </Link>
 
-              <ul className="absolute top-6 left-0 w-full opacity-0 translate-y-3 invisible group-hover:translate-y-0 transition-all duration-500 group-hover:visible group-hover:opacity-100 space-y-3">
+              <ul className="absolute top-8 left-0 w-full opacity-0 translate-y-3 invisible group-hover:translate-y-0 transition-all duration-500 group-hover:visible group-hover:opacity-100 space-y-3">
                 {item.subItems.map((subItem, i) => (
                   <li key={i}>
                     <Link
@@ -50,7 +50,7 @@ const LargeMenu = () => {
       </ul>
 
       <ul className="hidden lg:flex items-center">
-        <li>
+        <li className="border-r border-r-[#EEE] pr-2 border-indigo-200 pr-6">
           <Link href={"/"}>
             <BiSearch className="w-5 h-5" />
           </Link>

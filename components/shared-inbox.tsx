@@ -10,7 +10,7 @@ const SharedInbox = ({ sharedIndex }: Props) => {
   const { desc, title, features, image } = sharedIndex;
 
   return (
-    <section id="shared-inbox" className="gradient-color py-14  lg:pt-28">
+    <section className="gradient-color py-14  lg:pt-28">
       <div className="container">
         <div className="flex flex-wrap mx-auto space-y-10 lg:space-y-0 items-center">
           <div className="lg:basis-1/2 basis-full">

@@ -19,7 +19,6 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center py-4 justify-between">
           <Image width={135} height={24} src={menu.logoUrl} alt="logo" />
-
           <button onClick={() => setOpen(true)} className="lg:hidden">
             <svg
               className="w-5 h-5"

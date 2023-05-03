@@ -19,7 +19,7 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
   }, []);
 
   return (
-    <section id="recent-customer" className="pt-5 pb-12">
+    <section className="pt-5 pb-12">
       <div className="container">
         <div className="max-w-[645px] mx-auto">
           <h1 className="section-title text-center">{title}</h1>

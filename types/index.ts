@@ -24,7 +24,7 @@ export interface ISharedIndex {
 export interface IToolsTogether {
   title: string;
   image: string;
-  features: IFeature[];
+  features: { content: string; icon: string }[];
 }
 
 export interface ISharedEmail {
