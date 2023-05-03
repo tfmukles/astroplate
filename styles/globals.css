@@ -2,26 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer components {
+  .section-title {
+    @apply font-title font-bold text-heading text-left text-[30px] leading-[40px] md:leading-[60px] md:text-[48px] lg:leading-[60px] mb-5 lg:mb-1;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .section-description {
+    @apply font-pera font-normal text-lg leading-[28px] text-base;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+.gradient-color {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    180deg,
+    #f9f9f9 -0.53%,
+    rgba(249, 249, 249, 0) 83.28%
+  );
+}
+
+.swiper-pagination-bullet {
+  background: #e3e3e3;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #040404 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.swiper-pagination {
+  bottom: -12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

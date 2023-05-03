@@ -1,0 +1,77 @@
+import Link from "next/link";
+import { BiSearch, BiSun } from "react-icons/bi";
+import menu from "../config/menu.json";
+
+const LargeMenu = () => {
+  return (
+    <div className="flex items-center justify-between max-w-[70%] flex-1">
+      <ul className="hidden lg:flex space-x-[40px] ">
+        {menu.navigationItems.map((item, i) =>
+          item.subItems?.length ? (
+            <li className="relative group" key={i}>
+              <Link
+                className="text-sm leading-[26px] font-semibold text-heading flex items-center"
+                href={item.url}
+              >
+                Resources
+                <svg
+                  className="w-4 h-4 ml-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                </svg>
+              </Link>
+
+              <ul className="absolute top-6 left-0 w-full opacity-0 translate-y-3 invisible group-hover:translate-y-0 transition-all duration-500 group-hover:visible group-hover:opacity-100 space-y-3">
+                {item.subItems.map((subItem, i) => (
+                  <li key={i}>
+                    <Link
+                      className="font-medium cursor-pointer"
+                      href={subItem.url}
+                    >
+                      {subItem.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ) : (
+            <li key={i}>
+              <Link
+                className="text-sm leading-[26px] font-semibold text-heading"
+                href={"/"}
+              >
+                {item.label}
+              </Link>
+            </li>
+          )
+        )}
+      </ul>
+
+      <ul className="hidden lg:flex items-center">
+        <li>
+          <Link href={"/"}>
+            <BiSearch className="w-5 h-5" />
+          </Link>
+        </li>
+
+        <li className="2xl:ml-[51px] ml-[27px] mr-[27px]">
+          <div className="w-[41px] h-4 rounded-full bg-[#E9E9E9] relative">
+            <div className="absolute left-0 top-1/2 -translate-y-1/2 bg-black rounded-full w-6 h-6 flex items-center justify-center">
+              <BiSun className="w-5 h-5 text-white" />
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <button className="hover:bg-black hover:text-white transition-all duration-300 border border-heading rounded capitalize px-4 py-1 font-medium font-pera">
+            customer login
+          </button>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default LargeMenu;

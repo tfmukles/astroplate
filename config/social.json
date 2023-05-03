@@ -1,0 +1,20 @@
+{
+  "socialIcons": [
+    {
+      "icon": "/images/facebook.png",
+      "url": ""
+    },
+    {
+      "icon": "/images/twitter.png",
+      "url": ""
+    },
+    {
+      "icon": "/images/linkdin.png",
+      "url": ""
+    },
+    {
+      "icon": "/images/twitter.png",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "logoUrl": "/images/logo.png",
+  "navigationItems": [
+    {
+      "label": "Features",
+      "url": "/"
+    },
+    {
+      "label": "About Us",
+      "url": "/"
+    },
+    {
+      "label": "Pricing",
+      "url": "/"
+    },
+    {
+      "label": "Resources",
+      "url": "/",
+      "subItems": [
+        {
+          "label": "Item 1",
+          "url": "/"
+        },
+        {
+          "label": "Item 2",
+          "url": "/"
+        },
+        {
+          "label": "Item 3",
+          "url": "/"
+        }
+      ]
+    }
+  ]
+}

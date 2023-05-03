@@ -1,0 +1,37 @@
+{
+  "logoUrl": "/images/logo.png",
+  "fotterItems": [
+    {
+      "label": "Privicy Policy",
+      "url": "/"
+    },
+    {
+      "label": "Email Us",
+      "url": "/"
+    },
+    {
+      "label": "Terms & Condition",
+      "url": "/"
+    }
+  ],
+
+  "socialIcons": [
+    {
+      "icon": "/images/facebook.png",
+      "url": ""
+    },
+    {
+      "icon": "/images/twitter.png",
+      "url": ""
+    },
+    {
+      "icon": "/images/linkdin.png",
+      "url": ""
+    },
+    {
+      "icon": "/images/twitter.png",
+      "url": ""
+    }
+  ],
+  "copyWriteText": "Copyright By Zeon Studio"
+}

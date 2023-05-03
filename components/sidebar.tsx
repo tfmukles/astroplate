@@ -1,0 +1,52 @@
+import Link from "next/link";
+import { BiSearch, BiSun } from "react-icons/bi";
+import menu from "../config/menu.json";
+
+interface Props {
+  setOpen: any;
+}
+
+const Sidebar = ({ setOpen }: Props) => {
+  return (
+    <>
+      <div className="flex justify-between">
+        <button className="bg-black rounded-full p-1 shadow-sm w-8 h-8 justify-center flex items-center">
+          <BiSun className="w-5 h-5 text-white" />
+        </button>
+        <button onClick={() => setOpen(false)} className="text-whtie">
+          <svg
+            className="w-5 h-5"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+          </svg>
+        </button>
+      </div>
+
+      <div className="flex border items-center px-2 py-1 border-black rounded-2xl overflow-hidden">
+        <BiSearch className="w-5 h-5" />
+        <input
+          className="pl-1 outline-none flex-1"
+          type="search"
+          name="search"
+        />
+      </div>
+
+      <ul className="space-y-3">
+        {menu.navigationItems.map((item, i) => (
+          <li key={i}>
+            <Link
+              className="text-lg font-semibold leading-[26px]"
+              href={item.url}
+            >
+              {item.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+};
+
+export default Sidebar;
