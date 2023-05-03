@@ -28,7 +28,7 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
 
         <Swiper
           slidesPerView={1}
-          spaceBetween={10}
+          spaceBetween={24}
           pagination={{
             clickable: true,
           }}

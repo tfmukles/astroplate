@@ -1,5 +1,6 @@
 import { IToolsTogether } from "@/types";
 import Image from "next/image";
+import { AiOutlineCheck } from "react-icons/ai";
 
 interface Props {
   toolsTogether: IToolsTogether;
@@ -21,17 +22,11 @@ const ToolTogether = ({ toolsTogether }: Props) => {
             <h1 className="section-title text-left">{title}</h1>
             <ul className="space-y-3 mt-[33px] max-w-[440px]">
               {features.map((feature, i) => (
-                <li key={i} className="flex items-start space-x-3 font-medium">
-                  <div className="w-9 h-9 flex-none flex items-center justify-center rounded-full bg-[#EAEAEA]">
-                    <Image
-                      width={24}
-                      height={24}
-                      className="w-5 h-5"
-                      src={feature.icon}
-                      alt="icon"
-                    />
+                <li key={i} className="flex items-center space-x-3 font-medium">
+                  <div className="w-8 h-8 flex-none flex items-center justify-center rounded-full bg-[#EAEAEA]">
+                    <AiOutlineCheck className="w-5 h-5 flex-none" />
                   </div>
-                  <span>{feature.content}</span>
+                  <span>{feature}</span>
                 </li>
               ))}
             </ul>

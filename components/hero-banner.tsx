@@ -25,15 +25,13 @@ const HeroBanner = ({ heroBanner }: Props) => {
         </div>
 
         <div className="mt-[50px]">
-          <figure>
-            <Image
-              width={960}
-              height={305}
-              className="max-w-[100%] mx-auto"
-              src={image}
-              alt="banner"
-            />
-          </figure>
+          <Image
+            width={960}
+            height={305}
+            className="max-w-[100%] mx-auto"
+            src={image}
+            alt="banner"
+          />
         </div>
       </div>
     </section>

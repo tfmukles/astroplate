@@ -26,7 +26,7 @@ const SharedEmail = ({ sharedEmail }: Props) => {
               {features.map((feature, i) => (
                 <li key={i} className="flex items-center space-x-3 font-medium">
                   <AiOutlineCheck className="" />
-                  <span>{feature.content}</span>
+                  <span>{feature}</span>
                 </li>
               ))}
             </ul>

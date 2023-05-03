@@ -7,6 +7,7 @@ interface Props {
 }
 
 const SharedInbox = ({ sharedIndex }: Props) => {
+  console.log({ sharedIndex });
   const { desc, title, features, image } = sharedIndex;
 
   return (
@@ -29,7 +30,7 @@ const SharedInbox = ({ sharedIndex }: Props) => {
                   className="flex-none flex items-center space-x-4 md:space-x-3 font-medium"
                 >
                   <AiOutlineCheck className="w-5 h-5 flex-none" />
-                  <span>{feature.content}</span>
+                  <span>{feature}</span>
                 </li>
               ))}
             </ul>
