@@ -1,8 +1,13 @@
+import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
 import { BiSearch, BiSun } from "react-icons/bi";
 import menu from "../config/menu.json";
 
 const LargeMenu = () => {
+  const [theme, toggletheme] = useState(false);
+  const [canClick, setClick] = useState(true);
+
   return (
     <div className="flex items-center justify-between max-w-[70%] flex-1">
       <ul className="hidden lg:flex space-x-[40px] ">
@@ -57,11 +62,24 @@ const LargeMenu = () => {
         </li>
 
         <li className="2xl:ml-[51px] ml-[27px] mr-[27px]">
-          <div className="w-[41px] h-4 rounded-full bg-[#E9E9E9] relative">
-            <div className="absolute left-0 top-1/2 -translate-y-1/2 bg-black rounded-full w-6 h-6 flex items-center justify-center">
+          <button
+            disabled={!canClick}
+            onClick={() => {
+              setClick(false);
+              toggletheme(!theme);
+            }}
+            className={`${
+              theme ? "justify-start" : "justify-end"
+            } flex w-[41px] h-4 rounded-full bg-[#E9E9E9]`}
+          >
+            <motion.div
+              onAnimationComplete={() => setClick(true)}
+              layout
+              className="bg-black rounded-full w-6 h-6 flex items-center justify-center -mt-[5px]	"
+            >
               <BiSun className="w-5 h-5 text-white" />
-            </div>
-          </div>
+            </motion.div>
+          </button>
         </li>
 
         <li>
