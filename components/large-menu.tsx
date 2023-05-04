@@ -14,7 +14,7 @@ const LargeMenu = () => {
           item.subItems?.length ? (
             <li className="relative group" key={i}>
               <Link
-                className="text-sm leading-[26px] font-semibold text-heading flex items-center"
+                className="text-lg leading-[26px] font-medium text-heading flex items-center"
                 href={item.url}
               >
                 Resources
@@ -27,7 +27,7 @@ const LargeMenu = () => {
                 </svg>
               </Link>
 
-              <ul className="absolute top-8 left-0 w-full opacity-0 translate-y-3 invisible group-hover:translate-y-0 transition-all duration-500 group-hover:visible group-hover:opacity-100 space-y-3">
+              <ul className="bg-white shadow-sm p-3 absolute top-8 left-0 w-full opacity-0 translate-y-3 invisible group-hover:translate-y-0 transition-all duration-500 group-hover:visible group-hover:opacity-100 space-y-3">
                 {item.subItems.map((subItem, i) => (
                   <li key={i}>
                     <Link
@@ -43,7 +43,7 @@ const LargeMenu = () => {
           ) : (
             <li key={i}>
               <Link
-                className="text-sm leading-[26px] font-semibold text-heading"
+                className="text-lg leading-[26px] font-medium text-heading"
                 href={"/"}
               >
                 {item.label}
