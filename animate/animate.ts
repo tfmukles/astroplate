@@ -39,23 +39,35 @@ export const fadeInLeft = {
 export const fadeInTop = {
   hidden: {
     opacity: 0,
-    y: 100,
+    y: 200,
   },
   animate: {
     opacity: 1,
     y: 0,
-    transition,
+    transition: {
+      type: "spring",
+      stiffness: 120,
+      damping: 20,
+      mass: 0.5,
+      dealy: 0.8,
+    },
   },
 };
 
 export const fadeInBottom = {
   hidden: {
     opacity: 0,
-    y: -100,
+    y: -200,
   },
   animate: {
     opacity: 1,
     y: 0,
-    transition,
+    transition: {
+      type: "spring",
+      stiffness: 120,
+      damping: 20,
+      mass: 0.5,
+      dealy: 0.8,
+    },
   },
 };
