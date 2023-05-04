@@ -8,7 +8,7 @@
   }
 
   .section-description {
-    @apply font-pera font-normal text-lg leading-[28px] text-base;
+    @apply font-normal text-lg leading-[28px] text-base;
   }
 }
 

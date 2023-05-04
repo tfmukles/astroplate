@@ -7,7 +7,7 @@ import LargeMenu from "./large-menu";
 import Sidebar from "./sidebar";
 
 const Header = () => {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
   const { width } = useWindowSize();
   const navBarRef = useRef<HTMLButtonElement>(null);
   if (isOpen && width && width >= 1024) {

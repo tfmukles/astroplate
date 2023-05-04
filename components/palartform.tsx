@@ -16,7 +16,7 @@ const Paltform = ({ plartform }: Props) => {
             <h1 className="section-title mb-3">{title}</h1>
             <p className="section-description mb-3">{desc}</p>
 
-            <button className="hover:bg-white py-2 hover:text-black transition-all duration-300  bg-black text-white mt-4 border border-heading rounded capitalize px-4 font-medium font-pera">
+            <button className="hover:bg-white py-2 hover:text-black transition-all duration-300  bg-black text-white mt-4 border border-heading rounded capitalize px-4 font-medium">
               {button.label}
             </button>
           </div>

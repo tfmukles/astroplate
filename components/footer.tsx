@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import fotter from "../config/fotter.json";
-import { socialIcons } from "../config/social.json";
+import socialIcons from "../config/social.json";
 
 const Footer = () => {
   return (
