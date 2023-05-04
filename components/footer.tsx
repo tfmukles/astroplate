@@ -5,9 +5,9 @@ import socialIcons from "../config/social.json";
 
 const Footer = () => {
   return (
-    <footer className="py-5 bg-[#F6F6F6]">
+    <footer className="bg-[#F6F6F6]">
       <div className="container">
-        <div className="flex flex-wrap max-w-[80%] m-auto items-center justify-center lg:justify-between">
+        <div className="pt-14 pb-8 flex flex-wrap max-w-[80%] m-auto items-center justify-center lg:justify-between">
           <div className="py-4">
             <Image width={154} height={28} src={fotter.logoUrl} alt="logo" />
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center text-[#999999] text-lg capitalize">
+      <p className="text-center text-[#999999] text-lg capitalize border-t border-t-[#EAEAEA] py-8">
         {fotter.copyWriteText}
       </p>
     </footer>
