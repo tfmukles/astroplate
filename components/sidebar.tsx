@@ -1,14 +1,45 @@
+import { motion } from "framer-motion";
 import Link from "next/link";
+import { RefObject, useEffect, useRef } from "react";
 import { BiSearch, BiSun } from "react-icons/bi";
 import menu from "../config/menu.json";
 
 interface Props {
   setOpen: any;
+  buttonRef: RefObject<HTMLButtonElement>;
 }
 
-const Sidebar = ({ setOpen }: Props) => {
+const Sidebar = ({ setOpen, buttonRef }: Props) => {
+  const sidebarRef = useRef<HTMLDivElement>(null);
+
+  const handleClose = ({ target }: MouseEvent) => {
+    if (
+      sidebarRef.current &&
+      buttonRef.current &&
+      !buttonRef.current.contains(target as Node) &&
+      !sidebarRef.current.contains(target as Node)
+    ) {
+      setOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("click", handleClose);
+
+    return () => {
+      return window.removeEventListener("click", handleClose);
+    };
+  }, []);
+
   return (
-    <>
+    <motion.div
+      initial={{ x: "100%" }}
+      animate={{ x: 0 }}
+      exit={{ x: "100%" }}
+      transition={{ duration: 0.2 }}
+      className="absolute max-w-[330px] top-0 space-y-5 right-0 w-full h-full p-5 bg-white shadow-lg z-50"
+      ref={sidebarRef}
+    >
       <div className="flex justify-between">
         <button className="bg-black rounded-full p-1 shadow-sm w-8 h-8 justify-center flex items-center">
           <BiSun className="w-5 h-5 text-white" />
@@ -45,7 +76,7 @@ const Sidebar = ({ setOpen }: Props) => {
           </li>
         ))}
       </ul>
-    </>
+    </motion.div>
   );
 };
 

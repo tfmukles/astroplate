@@ -1,15 +1,15 @@
 import { useWindowSize } from "@/hooks/useWidth";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import menu from "../config/menu.json";
 import LargeMenu from "./large-menu";
 import Sidebar from "./sidebar";
 
 const Header = () => {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
   const { width } = useWindowSize();
-
+  const navBarRef = useRef<HTMLButtonElement>(null);
   if (isOpen && width && width >= 1024) {
     setOpen(false);
   }
@@ -19,7 +19,11 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center py-4 justify-between">
           <Image width={135} height={24} src={menu.logoUrl} alt="logo" />
-          <button onClick={() => setOpen(true)} className="lg:hidden">
+          <button
+            ref={navBarRef}
+            onClick={() => setOpen(true)}
+            className="lg:hidden"
+          >
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -31,13 +35,12 @@ const Header = () => {
           <AnimatePresence>
             {isOpen && (
               <motion.div
-                initial={{ x: "100%" }}
-                animate={{ x: 0 }}
-                exit={{ x: "100%" }}
-                transition={{ duration: 0.2 }}
-                className="fixed max-w-[330px] top-0 space-y-5 right-0 w-full h-full p-5 bg-white shadow-lg z-50"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="fixed top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.83)]"
               >
-                <Sidebar setOpen={setOpen} />
+                <Sidebar setOpen={setOpen} buttonRef={navBarRef} />
               </motion.div>
             )}
           </AnimatePresence>

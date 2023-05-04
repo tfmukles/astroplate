@@ -51,9 +51,13 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
           {features.map((feature, i) => (
             <SwiperSlide key={i} className="my-16">
               <div className="rounded-xl leading-[34px] font-inter text-[20px] bg-[#F6F6F6] py-[22px] pl-[32px] pr-[31px]">
-                <h3 className="pt-3 font-extrabold	text-[70px] leading-[70px] font-noto">
-                  ‘’
-                </h3>
+                <Image
+                  width={32}
+                  height={45}
+                  src={"/images/invited-comma.png"}
+                  alt="invited-comma"
+                  className="mt-4 mb-7"
+                />
                 {render && (
                   <p
                     className="text-lg leading-[34px]"

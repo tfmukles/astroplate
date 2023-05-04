@@ -25,7 +25,7 @@ export default function Home({ data }: Props) {
         return (
           <section key={i} className="gradient-color py-14 lg:py-24">
             <div className="container">
-              <div className="grid gap-y-10 lg:gap-20 place-content-center grid-cols-12 lg:gap-20">
+              <div className="grid gap-y-10 place-content-center grid-cols-12 lg:gap-20">
                 <div
                   className={`lg:col-span-5 col-span-12 ${
                     isEven ? "order-2" : ""
