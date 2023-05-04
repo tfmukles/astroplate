@@ -72,4 +72,5 @@ plartform:
   image: /images/palartform.png
   button:
     label: Start your free trial
+    url: ""
 ---

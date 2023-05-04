@@ -9,30 +9,6 @@ export interface IHeroBanner {
   title: string;
 }
 
-interface IFeature {
-  content: string;
-}
-
-export interface ISharedIndex {
-  image: string;
-  desc: string;
-  title: string;
-  features: string[];
-}
-
-export interface IToolsTogether {
-  title: string;
-  image: string;
-  features: string[];
-}
-
-export interface ISharedEmail {
-  title: string;
-  desc: string;
-  image: string;
-  features: string[];
-}
-
 interface ICustomer {
   comment: string;
   profile: string;
@@ -55,7 +31,12 @@ export interface IPlartform {
 
 export interface IData {
   heroBanner: IHeroBanner;
-  componetList: any;
+  componetList: {
+    title: string;
+    desc?: string;
+    features: string[];
+    image: string;
+  }[];
   recentCustomer: IRecentCustomer;
   plartform: IPlartform;
 }
