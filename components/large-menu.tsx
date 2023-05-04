@@ -9,12 +9,12 @@ const LargeMenu = () => {
 
   return (
     <div className="flex items-center justify-between max-w-[70%] flex-1">
-      <ul className="hidden lg:flex space-x-[40px] ">
+      <ul className="hidden lg:flex space-x-[30px] ">
         {menu.navigationItems.map((item, i) =>
           item.subItems?.length ? (
             <li className="relative group" key={i}>
               <Link
-                className="text-lg leading-[26px] font-medium text-heading flex items-center"
+                className="text-[16px] leading-[26px] font-medium text-heading flex items-center"
                 href={item.url}
               >
                 Resources
@@ -43,7 +43,7 @@ const LargeMenu = () => {
           ) : (
             <li key={i}>
               <Link
-                className="text-lg leading-[26px] font-medium text-heading"
+                className="text-[16px] leading-[26px] font-medium text-heading"
                 href={"/"}
               >
                 {item.label}
