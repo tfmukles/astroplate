@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#F6F6F6] mt-7">
       <div className="container">
-        <div className="pt-14 pb-8 flex flex-wrap max-w-[84%] m-auto items-center justify-center lg:justify-between">
+        <div className="pt-14 pb-8 flex flex-wrap max-w-[1080px] m-auto items-center justify-center lg:justify-between">
           <div className="py-4">
             <Image width={153} height={24} src={fotter.logoUrl} alt="logo" />
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center text-[#999999] text-lg capitalize border-t border-t-[#EAEAEA] py-8">
+      <p className="text-center text-[#999] text-lg capitalize border-t border-t-[#EAEAEA] py-7">
         {fotter.copyWriteText}
       </p>
     </footer>
