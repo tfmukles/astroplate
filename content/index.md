@@ -9,30 +9,27 @@ heroBanner:
     url: ""
 
 componetList:
-  - component:
-      title: A powerful shared inbox that feels just like email.
-      desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
-      image: /images/shared-img.png
-      features:
-        - "Never forget an upcoming renewal"
-        - "On-boarding: Give access to all apps in one go"
-        - "Automate SaaS procurement"
-        - "Consolidate apps with overlapping functions"
-  - component:
-      title: Bring all your tools together  for provide  amazing support.
-      image: /images/toggether-support.png
-      features:
-        - Built for the Distributed Workplace. Discover Every App. Cut Spend. Automate SaaS Ops.
-        - The only platform built for today's complex SaaS reality. Tackle your toughest SaaS challenges.
-        - the game by empowering your entire organization.
+  - title: A powerful shared inbox that feels just like email.
+    desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
+    image: /images/shared-img.png
+    features:
+      - "Never forget an upcoming renewal"
+      - "On-boarding: Give access to all apps in one go"
+      - "Automate SaaS procurement"
+      - "Consolidate apps with overlapping functions"
+  - title: Bring all your tools together  for provide  amazing support.
+    image: /images/toggether-support.png
+    features:
+      - Built for the Distributed Workplace. Discover Every App. Cut Spend. Automate SaaS Ops.
+      - The only platform built for today's complex SaaS reality. Tackle your toughest SaaS challenges.
+      - the game by empowering your entire organization.
 
-  - component:
-      title: A powerful shared inbox that feels just like email.
-      desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
-      image: "/images/shared-email.png"
-      features:
-        - Never forget an upcoming renewal
-        - On-boarding Give access to all apps in one go
+  - title: A powerful shared inbox that feels just like email.
+    desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
+    image: "/images/shared-email.png"
+    features:
+      - Never forget an upcoming renewal
+      - On-boarding Give access to all apps in one go
 
 # Recent Customer
 recentCustomer:
@@ -40,7 +37,7 @@ recentCustomer:
   desc: Astroplate intuitive shared inbox makes it easy forteammembers to organize, prioritize and solve Gustormer requests.Astroplate intuitive sh easy for.
   content: Astroplate intuitive shared inbox makes it easy forteammembers to organize, prioritize and solve Gustormer requests.Astroplate intuitive sh easy for.
   features:
-    - comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
+    - comment: 'How ever on are always on point an Dna nelivered in a timely manner. I highly tnotchBeautifullydesigned landing pages and model.**\"Its responses are always on point and delivered ination on lyresponses are cook.**'
       profile: /images/profile.png
       name: Marvin McKinney
       designation: Web Designer

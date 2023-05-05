@@ -5,13 +5,13 @@ import socialIcons from "../config/social.json";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F6F6F6]">
+    <footer className="bg-[#F6F6F6] mt-7">
       <div className="container">
-        <div className="pt-14 pb-8 flex flex-wrap max-w-[80%] m-auto items-center justify-center lg:justify-between">
+        <div className="pt-14 pb-8 flex flex-wrap max-w-[84%] m-auto items-center justify-center lg:justify-between">
           <div className="py-4">
-            <Image width={154} height={28} src={fotter.logoUrl} alt="logo" />
+            <Image width={153} height={24} src={fotter.logoUrl} alt="logo" />
           </div>
-          <ul className="flex items-center justify-center flex-wrap py-3">
+          <ul className="flex items-center justify-center flex-wrap py-3 space-x-10">
             {fotter.fotterItems.map((item, i) => (
               <li key={i}>
                 <Link

@@ -21,8 +21,8 @@ export default function Home({ data }: Props) {
     <>
       <Header />
       <HeroBanner heroBanner={heroBanner} />
-      {componetList.map(({ component }: any, i: number) => {
-        const { title, desc, image, features } = component || {};
+      {componetList.map((item, i: number) => {
+        const { title, desc, image, features } = item || {};
         const isEven = (i + 1) % 2 === 0;
         return (
           <section
@@ -30,38 +30,29 @@ export default function Home({ data }: Props) {
             className="gradient-color py-14 lg:py-24 overflow-hidden"
           >
             <div className="container">
-              <div className="grid gap-y-10 place-content-center grid-cols-12 lg:gap-20">
-                <div
-                  className={`lg:col-span-5 col-span-12 ${
-                    isEven ? "order-2" : ""
-                  }`}
-                >
+              <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-12 md:gap-x-6 md:place-items-center">
+                <div className={`md:col-span-5 lg:col-span-5  px-`}>
                   <motion.div
                     variants={fadeInLeft}
                     initial={"hidden"}
                     whileInView={"animate"}
                   >
                     <Image
-                      layout="responsive"
-                      width={500}
-                      height={400}
+                      width={520}
+                      height={480}
                       src={image}
                       alt="shared-img"
-                      className="max-w-[430px] lg:max-w-full mx-auto"
+                      className="sm:max-w-sm mx-auto md:max-w-full"
                     />
                   </motion.div>
                 </div>
+                <div className="hidden lg:block"></div>
                 <motion.div
                   initial={"hidden"}
                   whileInView={"animate"}
-                  className={`lg:col-span-7 col-span-12 ${
-                    isEven ? "order-1" : ""
-                  }`}
+                  className={`md:col-span-7 lg:col-span-6 flex flex-col justify-center px-2`}
                 >
-                  <motion.h1
-                    variants={fadeInRight}
-                    className="section-title text-left"
-                  >
+                  <motion.h1 variants={fadeInRight} className="section-title">
                     {title}
                   </motion.h1>
                   {desc && (
@@ -77,15 +68,15 @@ export default function Home({ data }: Props) {
                     transition={{ staggerChildren: 0.5 }}
                     initial={"hidden"}
                     whileInView={"animate"}
-                    className="space-y-3 mt-[33px]"
+                    className="space-y-7 mt-7"
                   >
-                    {features?.map((feature: any, i: number) => (
+                    {features?.map((feature, i: number) => (
                       <motion.li
                         variants={fadeInRight}
                         key={i}
-                        className="flex-none flex items-center space-x-4 md:space-x-3 font-medium"
+                        className="flex-none text-heading text-lg leading-[18px] flex items-center space-x-4 md:space-x-3 font-medium"
                       >
-                        <AiOutlineCheck className="w-5 h-5 flex-none" />
+                        <AiOutlineCheck className="w-5 h-5 flex-none text-gray" />
                         <span>{feature}</span>
                       </motion.li>
                     ))}
@@ -96,7 +87,6 @@ export default function Home({ data }: Props) {
           </section>
         );
       })}
-
       <RecentCustomer recentCustomer={recentCustomer} />
       <Paltform plartform={plartform} />
       <Footer />

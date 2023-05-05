@@ -17,8 +17,8 @@ const Header = () => {
   return (
     <header className="bg-white ">
       <div className="container">
-        <div className="flex items-center py-4 justify-between">
-          <Image width={135} height={24} src={menu.logoUrl} alt="logo" />
+        <div className="flex items-center pt-7 pb-4 justify-between">
+          <Image width={153} height={24} src={menu.logoUrl} alt="logo" />
           <button
             ref={navBarRef}
             onClick={() => setOpen(true)}

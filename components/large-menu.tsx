@@ -9,7 +9,7 @@ const LargeMenu = () => {
 
   return (
     <div className="flex items-center justify-between max-w-[70%] flex-1">
-      <ul className="hidden lg:flex lg:space-x-8 xl:space-x-12 2xl:space-x-14">
+      <ul className="hidden lg:flex lg:space-x-8 xl:space-x-11">
         {menu.navigationItems.map((item, i) =>
           item.subItems?.length ? (
             <li className="relative group" key={i}>
@@ -19,7 +19,7 @@ const LargeMenu = () => {
               >
                 Resources
                 <svg
-                  className="w-4 h-4 ml-1"
+                  className="w-4 h-4 ml-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
                 >
@@ -60,7 +60,7 @@ const LargeMenu = () => {
           </Link>
         </li>
 
-        <li className="2xl:ml-[51px] ml-[27px] mr-[27px]">
+        <li className="ml-5 mr-7">
           <button
             onClick={() => toggletheme(!theme)}
             className={`${
@@ -77,7 +77,7 @@ const LargeMenu = () => {
         </li>
 
         <li>
-          <button className="hover:bg-black hover:text-white transition-all duration-300 border border-heading rounded capitalize px-4 py-1 font-medium font-pera">
+          <button className="hover:bg-black hover:text-white text-sm transition-all duration-300 border border-heading rounded capitalize px-[15px] py-[6px] font-medium">
             customer login
           </button>
         </li>

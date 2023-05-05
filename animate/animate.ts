@@ -38,18 +38,17 @@ export const fadeInLeft = {
 
 export const fadeInTop = {
   hidden: {
-    opacity: 0,
     y: 200,
+    opacity: 0,
   },
   animate: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 120,
-      damping: 20,
-      mass: 0.5,
-      dealy: 0.8,
+      bounce: 0.5,
+      damping: 8,
+      stiffness: 50,
     },
   },
 };
@@ -64,10 +63,9 @@ export const fadeInBottom = {
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 120,
-      damping: 20,
-      mass: 0.5,
-      dealy: 0.8,
+      bounce: 0.5,
+      damping: 8,
+      stiffness: 50,
     },
   },
 };
