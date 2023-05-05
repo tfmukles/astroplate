@@ -68,16 +68,16 @@ export default function Home({ data }: Props) {
                     transition={{ staggerChildren: 0.5 }}
                     initial={"hidden"}
                     whileInView={"animate"}
-                    className="space-y-7 mt-7"
+                    className="space-y-3 mt-7"
                   >
                     {features?.map((feature, i: number) => (
                       <motion.li
                         variants={fadeInRight}
                         key={i}
-                        className="flex-none text-heading text-lg leading-[18px] flex items-center space-x-4 md:space-x-3 font-medium"
+                        className="flex-none text-heading text-lg flex items-center space-x-4 md:space-x-3 font-medium"
                       >
                         <AiOutlineCheck className="w-5 h-5 flex-none text-gray" />
-                        <span>{feature}</span>
+                        <span className="leading-7">{feature}</span>
                       </motion.li>
                     ))}
                   </motion.ul>
