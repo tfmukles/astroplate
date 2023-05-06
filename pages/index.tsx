@@ -1,27 +1,32 @@
 import { fadeInLeft, fadeInRight } from "@/animate/animate";
+import Banner from "@/components/banner";
+import Paltform from "@/components/cta";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import HeroBanner from "@/components/hero-banner";
-import Paltform from "@/components/palartform";
-import RecentCustomer from "@/components/recent-customer";
+import Testimonial from "@/components/testimonial";
 import { getPageData } from "@/lib/contentParser";
 import { IData } from "@/types";
 import { motion } from "framer-motion";
+import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineCheck } from "react-icons/ai";
+import config from "../config/config.json";
 
 interface Props {
   data: IData;
 }
 
 export default function Home({ data }: Props) {
-  const { heroBanner, plartform, recentCustomer, componetList } = data;
+  const { banner, plartform, testimonial, services } = data;
 
   return (
     <>
+      <Head>
+        <title>{config.title}</title>
+      </Head>
       <Header />
-      <HeroBanner heroBanner={heroBanner} />
-      {componetList.map((item, i: number) => {
+      <Banner banner={banner} />
+      {services.map((item, i) => {
         const { title, desc, image, features } = item || {};
         const isEven = (i + 1) % 2 === 0;
         return (
@@ -31,7 +36,11 @@ export default function Home({ data }: Props) {
           >
             <div className="container">
               <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-12 md:gap-x-6 md:place-items-center">
-                <div className={`md:col-span-5 lg:col-span-5  px-`}>
+                <div
+                  className={`md:col-span-5 lg:col-span-5 ${
+                    isEven ? "order-3" : ""
+                  }`}
+                >
                   <motion.div
                     variants={fadeInLeft}
                     initial={"hidden"}
@@ -50,7 +59,9 @@ export default function Home({ data }: Props) {
                 <motion.div
                   initial={"hidden"}
                   whileInView={"animate"}
-                  className={`md:col-span-7 lg:col-span-6 flex flex-col justify-center px-2`}
+                  className={`md:col-span-7 lg:col-span-6 flex flex-col justify-center px-2 ${
+                    isEven ? "order-1" : ""
+                  }`}
                 >
                   <motion.h1 variants={fadeInRight} className="section-title">
                     {title}
@@ -65,7 +76,7 @@ export default function Home({ data }: Props) {
                   )}
 
                   <motion.ul
-                    transition={{ staggerChildren: 0.5 }}
+                    transition={{ staggerChildren: 0.2 }}
                     initial={"hidden"}
                     whileInView={"animate"}
                     className="space-y-3 mt-7"
@@ -87,7 +98,7 @@ export default function Home({ data }: Props) {
           </section>
         );
       })}
-      <RecentCustomer recentCustomer={recentCustomer} />
+      <Testimonial testimonial={testimonial} />
       <Paltform plartform={plartform} />
       <Footer />
     </>

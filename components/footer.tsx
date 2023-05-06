@@ -1,22 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
-import fotter from "../config/fotter.json";
+import config from "../config/config.json";
+import menu from "../config/menu.json";
 import socialIcons from "../config/social.json";
 
 const Footer = () => {
   return (
     <footer className="bg-[#F6F6F6] mt-7">
       <div className="container">
-        <div className="pt-14 pb-8 flex flex-wrap max-w-[1058px] m-auto items-center justify-center lg:justify-between">
+        <div className="pt-14 max-lg:flex-col pb-8 flex  max-w-[1058px] m-auto items-center justify-center lg:justify-between">
           <div className="py-4 px-3">
-            <Image width={153} height={24} src={fotter.logoUrl} alt="logo" />
+            <Image width={153} height={24} src={config.img} alt="logo" />
           </div>
-          <ul className="px-3 flex items-center justify-center flex-wrap py-3  space-x-4">
-            {fotter.fotterItems.map((item, i) => (
+          <ul className="px-3 flex-wrap flex items-center justify-center py-3  space-x-4">
+            {menu.footerItems.map((item, i) => (
               <li key={i}>
                 <Link
                   href={item.url}
-                  className="capitalize text-lg leading-[28px] py-3 px-[6px]"
+                  className="capitalize text-lg block leading-[28px] py-1 px-[6px]"
                 >
                   {item.label}
                 </Link>
@@ -38,8 +39,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center text-[#999] text-lg capitalize border-t border-t-[#EAEAEA] py-7">
-        {fotter.copyWriteText}
+      <p className="text-center  text-[#999] text-lg capitalize border-t border-t-[#EAEAEA] py-7">
+        {menu.copyWriteText}
       </p>
     </footer>
   );

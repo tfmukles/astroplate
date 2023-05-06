@@ -2,7 +2,7 @@ interface IButton {
   label: string;
 }
 
-export interface IHeroBanner {
+export interface IBanner {
   button: IButton;
   image: string;
   content: string;
@@ -11,15 +11,15 @@ export interface IHeroBanner {
 
 interface ICustomer {
   comment: string;
-  profile: string;
+  img: string;
   name: string;
   designation: string;
 }
 
-export interface IRecentCustomer {
+export interface ITestimonial {
   title: string;
   desc: string;
-  features: ICustomer[];
+  comments: ICustomer[];
 }
 
 export interface IPlartform {
@@ -30,13 +30,13 @@ export interface IPlartform {
 }
 
 export interface IData {
-  heroBanner: IHeroBanner;
-  componetList: {
+  banner: IBanner;
+  services: {
     title: string;
     desc?: string;
     features: string[];
     image: string;
   }[];
-  recentCustomer: IRecentCustomer;
+  testimonial: ITestimonial;
   plartform: IPlartform;
 }

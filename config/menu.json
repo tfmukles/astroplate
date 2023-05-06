@@ -1,6 +1,5 @@
 {
-  "logoUrl": "/images/logo.png",
-  "navigationItems": [
+  "navItems": [
     {
       "label": "Features",
       "url": "/"
@@ -31,5 +30,21 @@
         }
       ]
     }
-  ]
+  ],
+
+  "footerItems": [
+    {
+      "label": "Privicy Policy",
+      "url": "/"
+    },
+    {
+      "label": "Email Us",
+      "url": "/"
+    },
+    {
+      "label": "Terms & Condition",
+      "url": "/"
+    }
+  ],
+  "copyWriteText": "Copyright By Zeon Studio"
 }

@@ -12,6 +12,18 @@ export const fadeInUp = {
   },
 };
 
+export const fadeInUpBanner = {
+  hidden: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "tween", ease: "easeInOut", duration: 0.5 },
+  },
+};
+
 export const fadeInRight = {
   hidden: {
     opacity: 0,

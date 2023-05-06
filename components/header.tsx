@@ -1,8 +1,9 @@
 import { useWindowSize } from "@/hooks/useWidth";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef, useState } from "react";
-import menu from "../config/menu.json";
+import config from "../config/config.json";
 import LargeMenu from "./large-menu";
 import Sidebar from "./sidebar";
 
@@ -10,6 +11,7 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false);
   const { width } = useWindowSize();
   const navBarRef = useRef<HTMLButtonElement>(null);
+
   if (isOpen && width && width >= 1024) {
     setOpen(false);
   }
@@ -18,7 +20,9 @@ const Header = () => {
     <header className="bg-white ">
       <div className="container">
         <div className="flex items-center pt-7 pb-4 justify-between">
-          <Image width={153} height={24} src={menu.logoUrl} alt="logo" />
+          <Link href={"/"}>
+            <Image width={153} height={24} src={config.img} alt="logo" />
+          </Link>
           <button
             ref={navBarRef}
             onClick={() => setOpen(true)}

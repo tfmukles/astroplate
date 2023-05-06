@@ -1,5 +1,5 @@
 import { fadeInBottom, fadeInTop, fadeInUp } from "@/animate/animate";
-import { IRecentCustomer } from "@/types";
+import { ITestimonial } from "@/types";
 import { motion, useInView } from "framer-motion";
 import { marked } from "marked";
 import Image from "next/image";
@@ -10,11 +10,11 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 interface Props {
-  recentCustomer: IRecentCustomer;
+  testimonial: ITestimonial;
 }
 
-const RecentCustomer = ({ recentCustomer }: Props) => {
-  const { title, desc, features } = recentCustomer;
+const Testimonial = ({ testimonial }: Props) => {
+  const { title, desc, comments } = testimonial;
   const [render, setRender] = useState(false);
   const parentRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(parentRef);
@@ -64,7 +64,7 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
             }}
             modules={[Pagination]}
           >
-            {features.map((feature, i) => {
+            {comments.map((comment, i) => {
               const isEven = (i + 1) % 2 === 0;
               const variants = isEven ? fadeInBottom : fadeInTop;
 
@@ -86,7 +86,7 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
                       <p
                         className="text-xl text-primary leading-[34px]"
                         dangerouslySetInnerHTML={{
-                          __html: marked.parse(feature.comment),
+                          __html: marked.parse(comment.comment),
                         }}
                       ></p>
                     )}
@@ -96,15 +96,15 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
                         width={50}
                         height={50}
                         className="flex-none w-12 h-12 rounded-full"
-                        src={feature.profile}
+                        src={comment.img}
                         alt="profile"
                       />
                       <div>
                         <h3 className="text-[22px] font-semibold leading-5 text-heading mb-1">
-                          {feature.name}
+                          {comment.name}
                         </h3>
                         <span className="text-lg text-heading leading-4">
-                          {feature.designation}
+                          {comment.designation}
                         </span>
                       </div>
                     </div>
@@ -119,4 +119,4 @@ const RecentCustomer = ({ recentCustomer }: Props) => {
   );
 };
 
-export default RecentCustomer;
+export default Testimonial;

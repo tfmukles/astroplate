@@ -65,11 +65,11 @@ const Sidebar = ({ setOpen, buttonRef }: Props) => {
       </div>
 
       <ul className="space-y-5">
-        {menu.navigationItems.map((item, i) =>
+        {menu.navItems.map((item, i) =>
           item.subItems?.length ? (
             <ListItem
               key={i}
-              label={"jfdlaj"}
+              label={item.label}
               url="jsdlkfjlad"
               subItems={item.subItems}
             />

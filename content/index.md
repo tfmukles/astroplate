@@ -1,6 +1,6 @@
 ---
-# Hero Banner
-heroBanner:
+# Banner
+banner:
   title: A Startup new landing page template
   content: Our landing page template works on all devicso you only have to set it up once, and get Our landing page template work all makes the entire process effortless
   image: /images/banner.png
@@ -8,7 +8,8 @@ heroBanner:
     label: "get started for free"
     url: ""
 
-componetList:
+# Banner
+services:
   - title: A powerful shared inbox that feels just like email.
     desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
     image: /images/shared-img.png
@@ -31,36 +32,41 @@ componetList:
       - Never forget an upcoming renewal
       - On-boarding Give access to all apps in one go
 
-# Recent Customer
-recentCustomer:
+# Testimonial
+testimonial:
   title: Here’s what some of our recent customers had to say
   desc: Astroplate intuitive shared inbox makes it easy forteammembers to organize, prioritize and solve Gustormer requests.Astroplate intuitive sh easy for.
   content: Astroplate intuitive shared inbox makes it easy forteammembers to organize, prioritize and solve Gustormer requests.Astroplate intuitive sh easy for.
-  features:
-    - comment: 'How ever on are always on point an Dna nelivered in a timely manner. I highly tnotchBeautifullydesigned landing pages and model.**\"Its responses are always on point and delivered ination on lyresponses are cook.**'
-      profile: /images/profile.png
-      name: Marvin McKinney
+  comments:
+    - name: Marvin McKinney
+      img: /images/profile.png
       designation: Web Designer
-    - comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
-      profile: /images/profile.png
-      name: Marvin McKinney
+      comment: 'How ever on are always on point an Dna nelivered in a timely manner. I highly tnotchBeautifullydesigned landing pages and model.**\"Its responses are always on point and delivered ination on lyresponses are cook.**'
+
+    - name: Marvin McKinney
+      img: /images/profile.png
       designation: Web Designer
-    - comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
-      profile: /images/profile.png
-      name: Marvin McKinney
+      comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
+
+    - name: Marvin McKinney
+      img: /images/profile.png
       designation: Web Designer
-    - comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
-      profile: /images/profile.png
-      name: Marvin McKinney
+      comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
+
+    - name: Marvin McKinney
+      img: /images/profile.png
       designation: Web Designer
-    - comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
-      profile: /images/profile.png
-      name: Marvin McKinney
+      comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
+
+    - name: Marvin McKinney
+      img: /images/profile.png
       designation: Web Designer
-    - comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
-      profile: /images/profile.png
-      name: Marvin McKinney
+      comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
+
+    - name: Marvin McKinney
+      img: /images/profile.png
       designation: Web Designer
+      comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
 
 # plartform
 plartform:
