@@ -12,7 +12,7 @@ const Paltform = ({ plartform }: Props) => {
   const { title, desc, image, button } = plartform;
 
   return (
-    <section className="pb-20 overflow-hidden">
+    <section className="pb-6 lg:pb-20  overflow-hidden">
       <div className="container">
         <motion.div
           initial={"hidden"}

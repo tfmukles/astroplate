@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <footer className="bg-[#F6F6F6] mt-7">
       <div className="container">
-        <div className="pt-14 pb-8 flex flex-wrap max-w-[1080px] m-auto items-center justify-center lg:justify-between">
-          <div className="py-4">
+        <div className="pt-14 pb-8 flex flex-wrap max-w-[1058px] m-auto items-center justify-center lg:justify-between">
+          <div className="py-4 px-3">
             <Image width={153} height={24} src={fotter.logoUrl} alt="logo" />
           </div>
-          <ul className="flex items-center justify-center flex-wrap py-3 space-x-10">
+          <ul className="px-3 flex items-center justify-center flex-wrap py-3  space-x-4">
             {fotter.fotterItems.map((item, i) => (
               <li key={i}>
                 <Link
@@ -23,7 +23,7 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-          <ul className="flex space-x-4 py-3">
+          <ul className="px-3 flex space-x-4 py-3">
             {socialIcons.map((icon, i) => (
               <li key={i}>
                 <a
