@@ -22,7 +22,7 @@ export interface ITestimonial {
   comments: ICustomer[];
 }
 
-export interface IPlartform {
+export interface ICta {
   title: string;
   desc: string;
   image: string;
@@ -34,9 +34,9 @@ export interface IData {
   services: {
     title: string;
     desc?: string;
-    features: string[];
+    service_list: string[];
     image: string;
   }[];
   testimonial: ITestimonial;
-  plartform: IPlartform;
+  cta: ICta;
 }

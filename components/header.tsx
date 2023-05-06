@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center pt-7 pb-4 justify-between">
           <Link href={"/"}>
-            <Image width={153} height={24} src={config.img} alt="logo" />
+            <Image width={153} height={24} src={config.logo} alt="logo" />
           </Link>
           <button
             ref={navBarRef}

@@ -1,6 +1,6 @@
 import { fadeInLeft, fadeInRight } from "@/animate/animate";
 import Banner from "@/components/banner";
-import Paltform from "@/components/cta";
+import CTA from "@/components/cta";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Testimonial from "@/components/testimonial";
@@ -17,22 +17,25 @@ interface Props {
 }
 
 export default function Home({ data }: Props) {
-  const { banner, plartform, testimonial, services } = data;
+  const { banner, cta, testimonial, services } = data;
 
   return (
     <>
       <Head>
         <title>{config.title}</title>
       </Head>
+
       <Header />
       <Banner banner={banner} />
       {services.map((item, i) => {
-        const { title, desc, image, features } = item || {};
+        const { title, desc, image, service_list } = item || {};
         const isEven = (i + 1) % 2 === 0;
         return (
           <section
             key={i}
-            className="gradient-color py-14 lg:py-24 overflow-hidden"
+            className={`${
+              i === 0 ? "gradient-color" : "bg-white"
+            } py-14 lg:py-28 overflow-hidden`}
           >
             <div className="container">
               <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-12 md:gap-x-6 md:place-items-center">
@@ -81,14 +84,14 @@ export default function Home({ data }: Props) {
                     whileInView={"animate"}
                     className="space-y-3 mt-7"
                   >
-                    {features?.map((feature, i: number) => (
+                    {service_list?.map((service, i: number) => (
                       <motion.li
                         variants={fadeInRight}
                         key={i}
                         className="flex-none text-heading text-lg flex items-center space-x-4 md:space-x-3 font-medium"
                       >
                         <AiOutlineCheck className="w-5 h-5 flex-none text-gray" />
-                        <span className="leading-7">{feature}</span>
+                        <span className="leading-7">{service}</span>
                       </motion.li>
                     ))}
                   </motion.ul>
@@ -99,7 +102,7 @@ export default function Home({ data }: Props) {
         );
       })}
       <Testimonial testimonial={testimonial} />
-      <Paltform plartform={plartform} />
+      <CTA cta={cta} />
       <Footer />
     </>
   );

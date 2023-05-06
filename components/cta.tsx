@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 
 interface Props {
-  plartform: IPlartform;
+  cta: ICta;
 }
 
 import { fadeInLeft, fadeInRight } from "@/animate/animate";
-import { IPlartform } from "@/types";
+import { ICta } from "@/types";
 import Image from "next/image";
 
-const CTA = ({ plartform }: Props) => {
-  const { title, desc, image, button } = plartform;
+const CTA = ({ cta }: Props) => {
+  const { title, desc, image, button } = cta;
 
   return (
-    <section className="pb-6 lg:pb-20 overflow-hidden">
+    <section className="pb-6 lg:pb-20 overflow-hidden mt-26">
       <div className="container">
         <motion.div
           initial={"hidden"}

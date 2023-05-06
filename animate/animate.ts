@@ -20,7 +20,7 @@ export const fadeInUpBanner = {
   animate: {
     opacity: 1,
     y: 0,
-    transition: { type: "tween", ease: "easeInOut", duration: 0.5 },
+    transition: { type: "tween", ease: [0.2, 0.3, 0.4, 0.8], duration: 0.5 },
   },
 };
 

@@ -8,19 +8,19 @@ banner:
     label: "get started for free"
     url: ""
 
-# Banner
+# Services
 services:
   - title: A powerful shared inbox that feels just like email.
     desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
     image: /images/shared-img.png
-    features:
+    service_list:
       - "Never forget an upcoming renewal"
       - "On-boarding: Give access to all apps in one go"
       - "Automate SaaS procurement"
       - "Consolidate apps with overlapping functions"
   - title: Bring all your tools together  for provide  amazing support.
     image: /images/toggether-support.png
-    features:
+    service_list:
       - Built for the Distributed Workplace. Discover Every App. Cut Spend. Automate SaaS Ops.
       - The only platform built for today's complex SaaS reality. Tackle your toughest SaaS challenges.
       - the game by empowering your entire organization.
@@ -28,7 +28,7 @@ services:
   - title: A powerful shared inbox that feels just like email.
     desc: Astroplate intuitive shared inbox makes it easy forteam members torgiing prioritize and solveGustormer requests- all in familiar interfaceprioritize interfaceprioritize and solve.
     image: "/images/shared-email.png"
-    features:
+    service_list:
       - Never forget an upcoming renewal
       - On-boarding Give access to all apps in one go
 
@@ -68,8 +68,8 @@ testimonial:
       designation: Web Designer
       comment: 'How ever on are always on point and delivered in a timely manner. I highly notch **\"Beautifully designed landing pages and model.** Its responses are always on point and delivered in a timely manner.'
 
-# plartform
-plartform:
+# CTA
+cta:
   title: Create an account and begin using our platform today.
   desc: a familiar all in a familiarrfo prioritize interfaceprior nd sosolveGustorr requests- all ir. a familiar all in a familiarrfo prioritize interfac eprior and solvea .solveGustormer requests- all ir.
   image: /images/palartform.png

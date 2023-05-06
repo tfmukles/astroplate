@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <footer className="bg-[#F6F6F6] mt-7">
       <div className="container">
-        <div className="pt-14 max-lg:flex-col pb-8 flex  max-w-[1058px] m-auto items-center justify-center lg:justify-between">
+        <div className="pt-16 max-lg:flex-col pb-8 flex  max-w-[1058px] m-auto items-center justify-center lg:justify-between">
           <div className="py-4 px-3">
-            <Image width={153} height={24} src={config.img} alt="logo" />
+            <Image width={153} height={24} src={config.logo} alt="logo" />
           </div>
           <ul className="px-3 flex-wrap flex items-center justify-center py-3  space-x-4">
             {menu.footerItems.map((item, i) => (
