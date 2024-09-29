@@ -39,7 +39,7 @@
       "label": "Categories",
       "name": "categories",
       "type": "Array",
-      "isIgnored": true
+      "isIgnored": false
     },
     {
       "label": "Author",
