@@ -20,7 +20,8 @@
       "label": "Description",
       "name": "description",
       "type": "string",
-      "value": ""
+      "value": "",
+      "isRequired": true
     },
     {
       "label": "Date",
@@ -37,7 +38,8 @@
     {
       "label": "Categories",
       "name": "categories",
-      "type": "Array"
+      "type": "Array",
+      "isIgnored": true
     },
     {
       "label": "Author",
@@ -48,7 +50,8 @@
     {
       "label": "Tags",
       "name": "tags",
-      "type": "Array"
+      "type": "string",
+      "isIgnored": true
     }
   ]
 }
