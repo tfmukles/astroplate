@@ -51,7 +51,8 @@
       "label": "Tags",
       "name": "tags",
       "type": "string",
-      "isIgnored": false
+      "isIgnored": false,
+      "isRequired": true
     }
   ]
 }
