@@ -9,6 +9,6 @@
   "themeConfig": [
     "src/config/theme.json"
   ],
-  "arrangement": 
+  "arrangement": {
   }
 }
