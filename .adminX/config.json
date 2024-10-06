@@ -10,12 +10,5 @@
     "src/config/theme.json"
   ],
   "arrangement": {
-    "src/content/blog": {
-      "Blogs": {
-        "weight": 0,
-        "include": "*.md, *.mdx",
-        "exclude": "index.md"
-      }
-    }
   }
 }
