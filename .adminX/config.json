@@ -10,5 +10,12 @@
     "src/config/theme.json"
   ],
   "arrangement": {
+    "src/content/blog": {
+      "blog-test": {
+        "weight": 0,
+        "include": "*.md, *.mdx",
+        "exclude": "!index.md"
+      }
+    }
   }
 }
