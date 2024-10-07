@@ -14,7 +14,7 @@
       "blog-test": {
         "weight": 0,
         "include": "*.md, *.mdx",
-        "exclude": "!index.md"
+        "exclude": "index.md"
       }
     }
   }
