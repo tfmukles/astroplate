@@ -9,6 +9,14 @@
   "themeConfig": [
     "src/config/theme.json"
   ],
-  "arrangement": [],
+  "arrangement": [
+    {
+      "type": "folder",
+      "targetPath": "src/content/blog",
+      "groupName": "Blogs",
+      "include": "*.md, *.mdx",
+      "exclude": ""
+    }
+  ],
   "showCommitModal": false
 }
