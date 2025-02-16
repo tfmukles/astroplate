@@ -1,5 +1,5 @@
 ---
-enable: true
+enable: false
 title: WHAT THEY ARE SAYING....
 subtitle: Barry’s impact makes all the difference at your events.
 items:
