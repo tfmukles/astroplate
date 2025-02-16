@@ -1,7 +1,7 @@
 ---
 items:
   - enable: true
-    name: MUkles
+    name: MUkles asdf
     image: /Screenshot 2024-11-13 at 7.48.04 AM.png
     designation: Volcano Summit
     company: Founder
