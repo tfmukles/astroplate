@@ -3,7 +3,7 @@ enable: false
 title: WHAT THEY ARE SAYING....
 subtitle: Barry’s impact makes all the difference at your events.
 items:
-  - enable: false
+  - enable: true
     name: Jenma Bardi
     image: /Screenshot 2024-11-13 at 7.48.04 AM.png
     designation: Volcano Summit
