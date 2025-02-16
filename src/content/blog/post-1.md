@@ -1,7 +1,7 @@
 ---
 items:
   - enable: true
-    name: Jenma Bardi asdfa
+    name: MUkles
     image: /Screenshot 2024-11-13 at 7.48.04 AM.png
     designation: Volcano Summit
     company: Founder
@@ -17,6 +17,7 @@ items:
       and impact."
     enable:
       value: true
+draft: false
 ---
 Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
 
