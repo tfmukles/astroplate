@@ -1,13 +1,13 @@
 ---
 items:
-  - enable: false
+  - enable: true
     name: MUkles asdf
-    image: /Screenshot 2024-11-13 at 7.48.04 AM.png
-    designation: Volcano Summit
-    company: Founder
+    image: /images/Black friday popup.png
+    designation: Volcano Summit nmn
+    company: Founder.   , nzxdcfvgbhnjkm.,
     quote: >-
       “Barry keynotes our annual summit with 1,800 attendees. He is one of the
-      MOST IMPACTFUL speakers we've ever had!" 
+      MOST IMPACTFUL speakers we've ever had!" fdgfhgjhkj
   - name: Dan Springer
     image: media/public/images/DocuSign-Logo-New.png
     designation: 'CEO '
