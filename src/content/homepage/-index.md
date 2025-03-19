@@ -1,66 +1,82 @@
 ---
-banner:
-  title: The Ultimate Starter Template You Need To Start Your Astro Project
-  content: >-
-    Astroplate is a free starter template built with Astro and TailwindCSS,
-    providing everything you need to jumpstart your Astro project and save
-    valuable time.
-  image: /images/banner.png
-  button:
-    enable: true
-    label: Get Started For Free
-    link: https://github.com/zeon-studio/astroplate
-features:
-  - title: What's Included in Astroplate
-    image: /images/service-1.png
-    content: >-
-      Astroplate is a comprehensive starter template that includes everything
-      you need to get started with your Astro project. What's Included in
-      Astroplate
-    bulletpoints:
-      - 10+ Pre-build pages
-      - 95+ Google Pagespeed Score
-      - Build with Astro and TailwindCSS for easy and customizable styling
-      - Fully responsive on all devices
-      - SEO-optimized for better search engine rankings
-      - '**Open-source and free** for personal and commercial use'
-    button:
-      enable: false
-      label: Get Started Now
-      link: '#'
-  - title: Discover the Key Features Of Astro
-    image: /images/service-2.png
-    content: >-
-      Astro is an all-in-one web framework for building fast, content-focused
-      websites. It offers a range of exciting features for developers and
-      website creators. Some of the key features are:
-    bulletpoints:
-      - 'Zero JS, by default: No JavaScript runtime overhead to slow you down.'
-      - 'Customizable: Tailwind, MDX, and 100+ other integrations to choose from.'
-      - 'UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.'
-      - hello
-    button:
-      enable: true
-      label: Get Started Now
-      link: https://github.com/zeon-studio/astroplate
-  - title: The Top Reasons to Choose Astro for Your Next Project
-    image: /images/service-3.png
-    content: >-
-      With Astro, you can build modern and content-focused websites without
-      sacrificing performance or ease of use.
-    bulletpoints:
-      - Instantly load static sites for better user experience and SEO.
-      - >-
-        Intuitive syntax and support for popular frameworks make learning and
-        using Astro a breeze.
-      - >-
-        Use any front-end library or framework, or build custom components, for
-        any project size.
-      - >-
-        Built on cutting-edge technology to keep your projects up-to-date with
-        the latest web standards.
-    button:
-      enable: false
-      label: ''
-      link: ''
+title: অভিযাত্রিক জামে মাসজিদ ও দাওয়া সেন্টার
+meta_title: অভিযাত্রিক জামে মাসজিদ ও দাওয়া সেন্টার
+description: >-
+  আপনারা সবাই আল্লাহর ঘরের জন্য এগিয়ে আসেন ইনশাআল্লাহ। আলহামদুলিল্লাহ, এই
+  শুক্রবারে আমরা আল্লাহর ঘর অভিযাত্রিক জামে মাসজিদ ও দাওয়া সেন্টারের দ্বিতীয়
+  তলার নির্মাণ কাজের জন্য ফান্ড সংগ্রহ করবো ইনশাআল্লাহ। ছবির ডিজাইন অনুযায়ী
+  মাসজিদটির নীচতলার কাজ পুরোপুরি ভাবে সম্পন্ন হয়েছে এবং শুক্রবারের জুমু'আ সহ
+  পাঁচ ওয়াক্ত সলাত নিয়মিত ভাবে আদায় হচ্ছে, আলহামদুলিল্লাহ। এছাড়া দ্বোতালার ছাদ
+  ঢালাই দিয়ে দেওয়া হয়েছে। বলা যায় মাসজিদের ৭৫% কাজ সমাপ্ত হয়ে গেছে। এখন অবশিষ্ট
+  ২৫% কাজের জন্য প্রায় ৫ লক্ষ টাকা সহযোগিতা প্রয়োজন। রমাদ্বান মাস দান করার
+  সবচেয়ে উপযুক্ত সময় আলহামদুলিল্লাহ। আপনারা সবাই আল্লাহর ঘরের জন্য এগিয়ে আসেন
+  ইনশাআল্লাহ। অভিযাত্রিক মাসজিদটি দিনাজপুর শহরের বিরল উপজেলার ভারতীয়
+  সীমান্তবর্তী এলাকা শালবনের পাশে অবস্থিত। সেখানে অনেক উপজাতি বসবাস করে। নির্মাণ
+  কাজ সমাপ্ত করার পাশাপাশি মাসজিদের দাওয়া সেন্টারের মাধ্যমে স্থানীয় গ্রামবাসী ও
+  উপজাতীদের মধ্যে দাওয়াতের কাজ শুরু করা হবে। গ্রামের আশেপাশের বাচ্চারা মাসজিদের
+  দাওয়া সেন্টারে দ্বীনের জ্ঞান অর্জন করার সুযোগ পাবে ইনশাআল্লাহ। এজন্য জরুরী
+  ভিত্তিতে মাসজিদের দ্বিতীয় তলার কাজ সম্পন্ন করা প্রয়োজন। বি:দ্র: আপনারা চাইলে
+  সরাসরি মাসজিদের ব্যাংক একাউন্টে টাকা দিতে পারেন।
+  ১০০/৫০০/১০০০/৫০০০/১০০০০/১০০০০০ টাকা ইত্যাদি যার যতটুকু দানের ইচ্ছা, আপনারা
+  প্লিজ সহযোগিতার হাত বাড়িয়ে দিন। এছাড়া পোস্টের সাথে সংযুক্ত ছবি/ফ্লায়ারের
+  মোবাইল নম্বর গুলিতে টাকা পাঠাবেন না।
+date: "2024-12-24"
+image: /images/ovijatrikmasjid.jpeg
+organizer: avijatrik-jame-masjid-and-dawa-center
+project_end_date:
+  enable: true
+  end_date: "2025-01-21T12:00:00"
+donation_goals:
+  enable: true
+  amount: ৳5,00,000
+  payment_methods:
+    mobile_banking:
+      - type: Bkash
+        image: /images/projects/bkash.png
+        number: "01720803305"
+        reference: Sadaqah Made Easy
+        accountType: Personal
+      - type: Nagad
+        image: /images/projects/nagad.png
+        number: "01720803305"
+        reference: Sadaqah Made Easy
+        accountType: Personal
+    bank:
+      type: Bank
+      image: /images/projects/bank.png
+      details:
+        name: Al-Arafa Islami Bank
+        account: "0751120062152"
+        accountName: Avijatrik Jame Masjid and Dawa Center
+        branch: Dinajpur Branch
+        reference: Sadaqah Made Easy
+categories:
+  - Mosque
+  - Dawah
+tags:
+  - Mosque
+  - মসজিদ
+draft: false
+---
+
+আপনারা সবাই আল্লাহর ঘরের জন্য এগিয়ে আসেন ইনশাআল্লাহ। আলহামদুলিল্লাহ, এই শুক্রবারে আমরা আল্লাহর ঘর অভিযাত্রিক জামে মাসজিদ ও দাওয়া সেন্টারের দ্বিতীয় তলার নির্মাণ কাজের জন্য ফান্ড সংগ্রহ করবো ইনশাআল্লাহ। ছবির ডিজাইন অনুযায়ী মাসজিদটির নীচতলার কাজ পুরোপুরি ভাবে সম্পন্ন হয়েছে এবং শুক্রবারের জুমু'আ সহ পাঁচ ওয়াক্ত সলাত নিয়মিত ভাবে আদায় হচ্ছে, আলহামদুলিল্লাহ। এছাড়া দ্বোতালার ছাদ ঢালাই দিয়ে দেওয়া হয়েছে। বলা যায় মাসজিদের ৭৫% কাজ সমাপ্ত হয়ে গেছে। এখন অবশিষ্ট ২৫% কাজের জন্য প্রায় ৫ লক্ষ টাকা সহযোগিতা প্রয়োজন।
+
+রমাদ্বান মাস দান করার সবচেয়ে উপযুক্ত সময় আলহামদুলিল্লাহ। আপনারা সবাই আল্লাহর ঘরের জন্য এগিয়ে আসেন ইনশাআল্লাহ। অভিযাত্রিক মাসজিদটি দিনাজপুর শহরের বিরল উপজেলার ভারতীয় সীমান্তবর্তী এলাকা শালবনের পাশে অবস্থিত। সেখানে অনেক উপজাতি বসবাস করে। নির্মাণ কাজ সমাপ্ত করার পাশাপাশি মাসজিদের দাওয়া সেন্টারের মাধ্যমে স্থানীয় গ্রামবাসী ও উপজাতীদের মধ্যে দাওয়াতের কাজ শুরু করা হবে। গ্রামের আশেপাশের বাচ্চারা মাসজিদের দাওয়া সেন্টারে দ্বীনের জ্ঞান অর্জন করার সুযোগ পাবে ইনশাআল্লাহ।
+
+এজন্য জরুরী ভিত্তিতে মাসজিদের দ্বিতীয় তলার কাজ সম্পন্ন করা প্রয়োজন। বি:দ্র: আপনারা চাইলে সরাসরি মাসজিদের ব্যাংক একাউন্টে টাকা দিতে পারেন। ১০০/৫০০/১০০০/৫০০০/১০০০০ টাকা ইত্যাদি যার যতটুকু দানের ইচ্ছা, আপনারা প্লিজ সহযোগিতার হাত বাড়িয়ে দিন। এছাড়া পোস্টের সাথে সংযুক্ত ছবি/ফ্লায়ারের মোবাইল নম্বর গুলিতে টাকা পাঠাবেন না।
+
+- [Check referral link](https://www.facebook.com/md.arifulhuq "Google")
+- [Check web](https://www.facebook.com/share/p/1BJX8foYrF/ "Google")
+
+---
+
+#### **Donation information**
+
+- Bank
+  - Name: Al-Arafa Islami Bank
+  - Account: 0751120062152
+  - Account name: Avijatrik Jame Masjid and Dawa Center
+  - Branch: Dinajpur Branch
+  - Reference: Sadaqah Made Easy
+
 ---
