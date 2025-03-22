@@ -27,5 +27,13 @@ list:
       youtubeVideoId: ''
       vimeoVideoId: 43cbJh4ccRD7lzM2730YK3
       spotifyId: ''
+  - head: ''
+    title: ''
+    thumbnail: >-
+      /images/Mukles/cheetah-acinonyx-jubatus-stands-in-long-grass-in-savannah-generative-ai-photo.jpg
+    podcastSourceOptions:
+      youtubeVideoId: ''
+      vimeoVideoId: ''
+      spotifyId: ''
 draft: false
 ---
