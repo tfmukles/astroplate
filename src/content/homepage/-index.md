@@ -34,7 +34,7 @@ donation_goals:
         branch: Dinajpur Branch
         reference: Sadaqah Made Easy
 categories:
-  - this category
+  - This is category
 tags:
   - this is tag
 draft: false
