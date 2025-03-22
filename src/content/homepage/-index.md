@@ -5,7 +5,7 @@ description: this is description
 date: '2024-12-24'
 image: >-
   /images/Mukles/cheetah-acinonyx-jubatus-stands-in-long-grass-in-savannah-generative-ai-photo.jpg
-organizer: this is organizer
+organizer: This is organizer.
 project_end_date:
   enable: true
   end_date: this is end date
