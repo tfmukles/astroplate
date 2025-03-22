@@ -1,6 +1,6 @@
 ---
 title: this is title
-meta_title: this is meta titlefadaf
+meta_title: this is meta Title
 description: this is description
 date: '2024-12-24'
 image: >-
