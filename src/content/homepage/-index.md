@@ -1,24 +1,23 @@
 ---
-title: this is title
-meta_title: this is meta Title
-description: this is description
-date: '2024-12-24'
-image: >-
-  /images/Mukles/cheetah-acinonyx-jubatus-stands-in-long-grass-in-savannah-generative-ai-photo.jpg
-organizer: This is organizer.
+title: ''
+meta_title: ''
+description: ''
+date: ''
+image: /images/bg-popup_copy(1).png
+organizer: ''
 project_end_date:
-  enable: true
-  end_date: this is end date
+  enable: false
+  end_date: ''
 donation_goals:
   enable: true
-  amount: this is amount
+  amount: ''
   payment_methods:
     mobile_banking:
-      - type: Bkash
+      - type: ''
         image: /images/projects/bkash.png
-        number: '01720803305'
-        reference: Sadaqah Made Easy
-        accountType: Personal
+        number: ''
+        reference: ''
+        accountType: ''
       - type: this type
         image: /images/Black friday popup.png
         number: this number
@@ -34,9 +33,9 @@ donation_goals:
         branch: Dinajpur Branch
         reference: Sadaqah Made Easy
 categories:
-  - This is category
+  - ''
 tags:
-  - this is tag
+  - ''
 draft: false
 ---
 আপনারা সবাই আল্লাহর ঘরের জন্য এগিয়ে আসেন ইনশাআল্লাহ। আলহামদুলিল্লাহ, এই শুক্রবারে আমরা আল্লাহর ঘর অভিযাত্রিক জামে মাসজিদ ও দাওয়া সেন্টারের দ্বিতীয় তলার নির্মাণ কাজের জন্য ফান্ড সংগ্রহ করবো ইনশাআল্লাহ। ছবির ডিজাইন অনুযায়ী মাসজিদটির নীচতলার কাজ পুরোপুরি ভাবে সম্পন্ন হয়েছে এবং শুক্রবারের জুমু'আ সহ পাঁচ ওয়াক্ত সলাত নিয়মিত ভাবে আদায় হচ্ছে, আলহামদুলিল্লাহ। এছাড়া দ্বোতালার ছাদ ঢালাই দিয়ে দেওয়া হয়েছে। বলা যায় মাসজিদের ৭৫% কাজ সমাপ্ত হয়ে গেছে। এখন অবশিষ্ট ২৫% কাজের জন্য প্রায় ৫ লক্ষ টাকা সহযোগিতা প্রয়োজন।
