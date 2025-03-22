@@ -18,11 +18,11 @@ donation_goals:
         number: ''
         reference: ''
         accountType: ''
-      - type: this type
+      - type: ''
         image: /images/Black friday popup.png
-        number: this number
-        reference: this reference
-        accountType: this account
+        number: ''
+        reference: ''
+        accountType: ''
     bank:
       type: Bank
       image: /images/projects/bank.png
