@@ -27,13 +27,13 @@ donation_goals:
       type: Bank
       image: /images/projects/bank.png
       details:
-        name: Al-Arafa Islami Bank
-        account: '0751120062152'
-        accountName: Avijatrik Jame Masjid and Dawa Center
-        branch: Dinajpur Branch
-        reference: Sadaqah Made Easy
+        name: ''
+        account: ''
+        accountName: ''
+        branch: ''
+        reference: ''
 categories:
-  - ''
+  - categories-1
 tags:
   - ''
   - ''
