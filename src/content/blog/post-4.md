@@ -9,7 +9,7 @@ categories:
   - Data
 author: John Doe
 tags:
-  - technology
+  - echnology
   - মাদরাসা
   - silicon
 draft: false
