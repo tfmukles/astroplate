@@ -27,7 +27,7 @@ features:
     button:
       enable: false
       label: Get Started Now
-      link: '#'
+      link: https://link.com
   - title: Discover the Key Features Of Astro
     image: /images/service-2.png
     content: >-
@@ -62,4 +62,5 @@ features:
       enable: false
       label: ''
       link: ''
+draft: false
 ---
