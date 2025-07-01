@@ -1,6 +1,6 @@
 ---
 title: How to build an Application with modern Technology
-meta_title: ''
+meta_title: This is meta title
 description: this is meta description
 date: '2025-08-01T02:12:00.000Z'
 image: /images/banner.png
@@ -9,9 +9,9 @@ categories:
   - Data
 author: John Doe
 tags:
-  - silicon
   - technology
   - মাদরাসা
+  - silicon
 draft: false
 ---
 Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
