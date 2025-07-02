@@ -1,7 +1,7 @@
 ---
 title: Sam Wilson
 email: samwilson@email.com
-image: /images/logo.png
+image: /images/og-image.png
 description: this is meta description.
 social:
   - name: github
