@@ -41,11 +41,6 @@
       "groupName": "blogs",
       "include": "*.md, *.mdx",
       "exclude": ""
-    },
-    {
-      "type": "file",
-      "targetPath": "src/content/blog/post-1.md",
-      "groupName": "post-1"
     }
   ],
   "showCommitModal": false
