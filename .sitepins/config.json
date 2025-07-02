@@ -9,6 +9,11 @@
   "themeConfig": [],
   "arrangement": [
     {
+      "type": "file",
+      "targetPath": "src/content/homepage/-index.md",
+      "groupName": "homepage"
+    },
+    {
       "type": "heading",
       "groupName": "blogs",
       "targetPath": ""
