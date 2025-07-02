@@ -2,7 +2,7 @@
 title: How to build an Application with modern Technology
 meta_title: This is meta title
 description: this is meta description
-date: '2025-08-01T02:12:00.000Z'
+date: 2025-07-11T02:12:00.000Z
 image: /images/banner.png
 categories:
   - Architecture
