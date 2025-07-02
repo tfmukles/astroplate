@@ -1,11 +1,13 @@
 ---
 banner:
-  title: The Ultimate Starter Template You Need To Start Your Astro Project
+  title: >-
+    jasjdfljjas fjsalfjlsadjf asdlf asdljflsadkjfklasdj fjdslk fkldsaj
+    flkasjdklf
   content: >-
     Astroplate is a free starter template built with Astro and TailwindCSS,
     providing everything you need to jumpstart your Astro project and save
     valuable time.
-  image: /images/banner.png
+  image: /images/call-to-action.png
   button:
     enable: true
     label: Get Started For Free
