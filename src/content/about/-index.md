@@ -1,6 +1,6 @@
 ---
 title: This is title
-meta_title: afssss dfadsf adsf adsf a
+meta_title: this is meta title.
 description: as fadsf adsfasdfasddfasd fads fa
 image: /images/favicon.png
 draft: false
