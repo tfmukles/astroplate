@@ -1,27 +1,31 @@
 ---
 enable: true
-title: "What Users Are Saying About Astroplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Astroplate."
-
-# Testimonials
+title: f sadf asfasdf
+description: ds fdafsdaf f
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: sfasf asf
+    designation: ' afds fadsf ad sdf as'
+    avatar: /images/avatar-sm.png
+    content: ' fasdf asdf asdfsadf asdf'
+  - name: Marvin McKinney
+    designation: Web Designer
+    avatar: /images/avatar-sm.png
+    content: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo
+      molestias, assumenda expedita commodi inventore non itaque molestiae
+      voluptatum dolore, facilis sapiente, repellat veniam.
+  - name: Marvin McKinney
+    designation: Web Designer
+    avatar: /images/avatar-sm.png
+    content: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo
+      molestias, assumenda expedita commodi inventore non itaque molestiae
+      voluptatum dolore, facilis sapiente, repellat veniam.
+  - name: Marvin McKinney
+    designation: Web Designer
+    avatar: /images/avatar-sm.png
+    content: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo
+      molestias, assumenda expedita commodi inventore non itaque molestiae
+      voluptatum dolore, facilis sapiente, repellat veniam.
 ---
