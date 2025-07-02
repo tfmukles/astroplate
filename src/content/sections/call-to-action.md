@@ -6,5 +6,5 @@ description: dsdgjhk jlkl iuupu
 button:
   enable: true
   label: 'jhk hll hlk '
-  link: https://github.com/zeon-studio/astroplate
+  link: f adsf adsf asdf
 ---
