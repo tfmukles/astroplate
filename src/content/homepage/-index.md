@@ -7,7 +7,7 @@ banner:
   image: /images/call-to-action.png
   button:
     enable: true
-    label: Get Started For Free
+    label: Goto button.
     link: https://github.com/zeon-studio/astroplate
 features:
   - title: What's Included in Astroplate
