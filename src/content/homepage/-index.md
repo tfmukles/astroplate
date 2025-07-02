@@ -11,18 +11,20 @@ banner:
     link: https://github.com/zeon-studio/astroplate
 features:
   - title: What's Included in Astroplate
-    image: /images/logo.png
+    image: /images/favicon.png
     content: >-
       Astroplate is a comprehensive starter template that includes everything
       you need to get started with your Astro project. What's Included in
-      Astroplate
+      Astroplate.
     bulletpoints:
-      - 10+ Pre-build pages.
-      - 95+ Google Pagespeed Score
-      - Build with Astro and TailwindCSS for easy and customizable styling
-      - Fully responsive on all devices
-      - SEO-optimized for better search engine rankings
       - '**Open-source and free** for personal and commercial use'
+      - ' Fully responsive on all devices fs asdf'
+      - SEO-optimized for better search engine rankings
+      - 10+ Pre-build pages. asdfa sfd
+      - '95+ Google Pagespeed Score fsad fa '
+      - >-
+        Build with Astro and TailwindCSS for easy and customizable styling ase
+        fsadf as
     button:
       enable: false
       label: Get Started Now
