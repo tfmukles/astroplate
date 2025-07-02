@@ -14,6 +14,23 @@
       "groupName": "homepage"
     },
     {
+      "type": "file",
+      "targetPath": "src/content/about/-index.md",
+      "groupName": "about"
+    },
+    {
+      "type": "file",
+      "targetPath": "src/content/contact/-index.md",
+      "groupName": "contact"
+    },
+    {
+      "type": "folder",
+      "targetPath": "src/content/sections",
+      "groupName": "sections",
+      "include": "",
+      "exclude": ""
+    },
+    {
       "type": "heading",
       "groupName": "blogs",
       "targetPath": ""
