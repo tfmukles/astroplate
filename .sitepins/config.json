@@ -24,6 +24,11 @@
       "groupName": "contact"
     },
     {
+      "type": "heading",
+      "groupName": "sections",
+      "targetPath": ""
+    },
+    {
       "type": "folder",
       "targetPath": "src/content/sections",
       "groupName": "sections",
