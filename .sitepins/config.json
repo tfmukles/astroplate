@@ -7,6 +7,12 @@
     "root": "src/content"
   },
   "themeConfig": [],
-  "arrangement": [],
+  "arrangement": [
+    {
+      "type": "heading",
+      "groupName": "blogs",
+      "targetPath": ""
+    }
+  ],
   "showCommitModal": false
 }
