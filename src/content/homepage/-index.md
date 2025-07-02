@@ -3,10 +3,7 @@ banner:
   title: >-
     jasjdfljjas fjsalfjlsadjf asdlf asdljflsadkjfklasdj fjdslk fkldsaj
     flkasjdklf
-  content: >-
-    Astroplate is a free starter template built with Astro and TailwindCSS,
-    providing everything you need to jumpstart your Astro project and save
-    valuable time.
+  content: this is content
   image: /images/call-to-action.png
   button:
     enable: true
