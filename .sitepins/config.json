@@ -12,6 +12,13 @@
       "type": "heading",
       "groupName": "blogs",
       "targetPath": ""
+    },
+    {
+      "type": "folder",
+      "targetPath": "src/content/blog",
+      "groupName": "blogs",
+      "include": "*.md, *.mdx",
+      "exclude": ""
     }
   ],
   "showCommitModal": false
