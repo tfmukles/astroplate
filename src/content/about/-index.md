@@ -33,7 +33,7 @@ fasdf asdfasf
 4. afa
 5. adf
 
-fasfasdfasdfasdfasdf\\
+fasfasdfasdfasdfasdf
 
 ```javascript
 function myFunctions() {
