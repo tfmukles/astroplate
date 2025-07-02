@@ -27,7 +27,7 @@ features:
         fsadf as
     button:
       enable: false
-      label: Get Started Now
+      label: Goto button
       link: https://link.com
   - title: Discover the Key Features Of Astro
     image: /images/service-2.png
