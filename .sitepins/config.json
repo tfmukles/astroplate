@@ -45,7 +45,7 @@
       "targetPath": "src/content/blog",
       "groupName": "blogs",
       "include": "*.md, *.mdx",
-      "exclude": "!index.md, !index*"
+      "exclude": "!index.md"
     }
   ],
   "showCommitModal": false
