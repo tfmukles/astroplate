@@ -6,9 +6,7 @@
   "content": {
     "root": "src/content"
   },
-  "themeConfig": [
-    "src/config"
-  ],
+  "themeConfig": [],
   "arrangement": [],
   "showCommitModal": false
 }
