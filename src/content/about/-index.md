@@ -1,6 +1,6 @@
 ---
 title: this is title. adfa
-meta_title: About
+meta_title: ads adf asdf
 description: this is meta description adsa
 image: /images/avatar.png
 draft: false
