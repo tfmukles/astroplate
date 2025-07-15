@@ -1,5 +1,5 @@
 ---
-title: this is title. adfa adsfa adsf adsf adf fasdf
+title: this is title.
 meta_title: ads adf asdf
 description: this is meta description adsa
 image: /images/avatar.png
