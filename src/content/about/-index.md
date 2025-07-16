@@ -1,7 +1,7 @@
 ---
 title: this is title.
 meta_title: this is meta title.
-description: this is meta description adsa
+description: this is descriptioins.
 image: /images/avatar.png
 draft: false
 ---
