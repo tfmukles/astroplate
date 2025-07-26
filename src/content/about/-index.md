@@ -1,5 +1,5 @@
 ---
-title: Hey, I am John Doe! asdf
+title: Hey, I am John Doe!  asdfa asdf asdf
 meta_title: About asdf asdf
 description: this is meta description
 image: /images/avatar.png
