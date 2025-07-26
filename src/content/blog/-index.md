@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts"
-meta_title: ""
-description: "this is meta description"
+title: Blog Posts asf asdf
+meta_title: ''
+description: this is meta description
 ---
