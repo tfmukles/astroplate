@@ -1,6 +1,6 @@
 ---
 title: Hey, I am John Doe! asdf
-meta_title: About
+meta_title: About asdf asdf
 description: this is meta description
 image: /images/avatar.png
 draft: false
